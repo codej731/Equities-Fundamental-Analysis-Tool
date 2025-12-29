@@ -59,3 +59,32 @@ You will need Python installed along with the following libraries:
 
 ```bash
 pip install pandas numpy requests yahooquery yfinance finvizfinance lxml
+
+---
+
+### 2. Running the Screeners
+There are two main notebooks depending on which market you want to analyze:
+
+* **🇺🇸 USA Market:** Run `Equity_Res_USA_Datafolder.ipynb`
+* **🇨🇦 Canadian Market:** Run `Equity_Res_CA.ipynb`
+
+### 3. Output
+The script automatically creates a folder named `YfinanceDataDump` in your directory and saves the following CSV reports:
+
+* `fortress_stocks.csv` (The best of the best)
+* `strong_stocks.csv` (Solid contenders)
+* `risky_stocks.csv` (Avoid or tread carefully)
+* `Analyst_Fortress_Picks.csv` (Fortress stocks that analysts also love)
+* `Buffett_Value_Picks.csv` (Deep value "cigar butt" stocks)
+
+---
+
+## 📈 Watchlist Tool
+The repo also includes a **Watchlist Combiner** (found at the end of the notebooks). This tool allows you to input a manual list of tickers (e.g., `['AAPL', 'MSFT', 'TSLA']`) and generates a consolidated view merging:
+* **Technical Data:** 52-week High drop, Volatility, Relative Volume.
+* **Fundamental Data:** Analyst Price Targets and Ratings (via `finvizfinance`).
+
+---
+
+## ⚠️ Disclaimer
+*This project is for educational and research purposes only. The "Grades" (Fortress/Strong/Risky) are algorithmic outputs based on historical data and standard financial formulas. They do not constitute financial advice, and you should perform your own due diligence before investing.*
