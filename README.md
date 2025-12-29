@@ -1,83 +1,61 @@
-# 📈 North American Equity Research & Screener
+# Stock-Grade YFinance Screener 📈🛡️
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Finance](https://img.shields.io/badge/Finance-Quantitative-green)
-![Market](https://img.shields.io/badge/Markets-US%20%26%20Canada-red)
+A powerful, algorithmic stock screener and grading tool for **US and Canadian markets**.
 
+This project automates the process of finding high-quality, fundamentally sound companies by filtering thousands of stocks through a rigorous financial sieve. It uses a hybrid approach—leveraging `yahooquery` for speed and `yfinance` for deep financial reliability—to grade stocks into **Fortress**, **Strong**, or **Risky** tiers based on solvency, profitability, and capital efficiency.
 
-A comprehensive Python-based equity research engine designed to filter, analyze, and grade stocks across the **US (NASDAQ/NYSE)** and **Canadian (TSX/TSX-V)** markets. This tool automates fundamental analysis by applying credit risk models, valuation screens (Buffett/Graham), and institutional sentiment filters to identify high-quality investment candidates.
+## 🚀 Key Features
 
-## 📋 Overview
+* **Multi-Market Support:** Dedicated scripts for **USA** (NYSE/NASDAQ) and **Canada** (TSX/TSX-V).
+* **Hybrid Data Fetching:** Uses `yahooquery` for rapid initial screening of thousands of tickers and `yfinance` for deep-dive validation.
+* **Automated Grading System:** Classifies stocks based on strict fundamental criteria (Z-Score, ROIC, Margins).
+* **Specialized Scans:**
+    * **🧠 Analyst Picks:** Cross-references "Fortress" stocks with Wall Street Buy ratings and upside potential.
+    * **💎 Buffett Value:** Identifies deep value stocks trading below Book Value (P/B < 1) with positive ROE and manageable debt.
+* **Smart Caching:** Implements a JSON caching system to prevent API throttling and speed up subsequent runs.
 
-This project pulls raw market data, filters out uninvestable sectors (or targets them specifically), and applies a custom **Credit Strength Model** to categorize stocks into actionable "buckets."
+---
 
-**Key Capabilities:**
-* **Dual-Market Support:** Automatically handles currency and reporting differences between US and Canadian exchanges.
-* **Credit Bucketing:** Grades companies into **Fortress** (Safe), **Moonshot** (Turnaround), or **Distress** (Avoid).
-* **Valuation Logic:** Implements "Buffett NAV" screens (Price < Book) and Deep Value metrics.
-* **Analyst Alignment:** Cross-references technical screens with Analyst Consensus (Buy/Strong Buy only).
-* **Options Integration:** Checks for option chain liquidity (US markets) to support hedging strategies.
+## ⚙️ How It Works
 
-## 🧠 The Grading Logic
+The screener operates in a **3-Step Funnel**:
 
-The core of this project is the **Credit Model**, which sorts non-financial companies into three distinct categories based on their Z-Score, ROIC, and Interest Coverage.
+### 1. The Universe Fetch
+* **USA:** Pulls the latest ticker list from the NASDAQ Trader exchange data.
+* **Canada:** Scrapes official TMX listings or utilizes Wikipedia constituents for TSX/TSX-V.
 
-| Bucket | Profile | Criteria Highlights |
+### 2. The Lightweight Sieve (Speed)
+Filters thousands of stocks using "quick" metrics to discard junk:
+* **Price:** > $2.00
+* **Market Cap:** > $300M (USA) / $50M (CAD)
+* **Volume:** > 1M (USA) / 100k (CAD)
+* **Basic Health:** Positive Operating Margins & Current Ratio > 1.2
+* **Sector Exclusion:** Removes Financials and Real Estate (as standard metrics like EBIT/Capital don't apply well).
+
+### 3. The Deep Dive (Reliability)
+Survivors undergo a rigorous "health check" using `yfinance` to calculate:
+* **Altman Z-Score:** A formula used to predict bankruptcy risk.
+* **ROIC (Return on Invested Capital):** Measures how efficiently a company allocates capital.
+* **Interest Coverage:** Can the company pay its debts?
+
+---
+
+## 📊 The Grading Logic
+
+Stocks are automatically sorted into one of three tiers based on the Deep Dive results:
+
+| Grade | Criteria | Description |
 | :--- | :--- | :--- |
-| 🛡️ **Fortress** | **High Quality / Safe** | Z-Score > 2.9, ROIC > 5%, Interest Coverage > 4x. Proven stability. |
-| 🚀 **Moonshot** | **Turnaround / Growth** | Z-Score < 2.5 but **Margin Trend is Improving**. High risk, high reward potential. |
-| ⚠️ **Distress** | **Bankruptcy Risk** | Z-Score < 1.8 or Interest Coverage < 1.5. Statistically likely to fail. |
+| **🏰 FORTRESS** | **High Margins** (>5%)<br>**Safe Debt** (Int. Cov > 1.5)<br>**High ROIC** (>5%) | Financially bulletproof companies with efficient capital allocation and strong moats. |
+| **💪 STRONG** | **Safe Debt** (Int. Cov > 1.5)<br>**High ROIC** (>5%) | Fundamentally sound companies that may have slightly lower margins but are otherwise healthy. |
+| **⚠️ RISKY** | **Low Interest Coverage** (<1.5)<br>**OR Low ROIC** (<5%) | Companies that are barely profitable or carrying dangerous debt loads relative to earnings. |
 
-## 📂 Repository Structure
-
-The project is split into focused notebooks for different sectors and regions:
-
-### 🇺🇸 United States 
-* `Equity_Research_USA_Analyst_Rating.ipynb`
-    * **The Master Screener.** Scrapes US tickers, filters by "Buy/Strong Buy" analyst ratings, runs the Credit Model, and checks for Options liquidity. This is the primary tool for finding quality plays.
-    * *Includes:* A "Watchlist Combiner" that merges ticker data with Yahoo Finance stats.
-
-### 🇨🇦 Canadian Specific
-* `Equity_Research_CA_Nonfinancial_Buffet.ipynb`
-    * Focuses on TSX/TSX-V stocks. Combines the Credit Model with a **Warren Buffett NAV filter** (Price < Book + Profitable) to find "Net-Net" style deep value.
-* `Equity_Research_CA_Nonfinancial.ipynb`
-    * The standard credit analysis for Canadian operating companies (Mining, Energy, Tech, Retail), excluding banks.
-* `Equity_Research_Canadian_Financials.ipynb`
-    * Specialized screener for Canadian Banks, Insurance, and REITs (since standard Z-Scores don't apply to financials).
-
-### 🏦 Financial Sector (Specialized)
-* `Equity_Research_USA_Financials.ipynb`
-    * Dedicated screener for US Financials. Outputs three specific lists: **Undervalued** (Low P/B), **Income** (High Yield), and **Growth** (High P/E + Strong Buy).
+---
 
 ## 🛠️ Installation & Usage
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/codej731/Stock-Grade-YFinance-Screener.git](https://github.com/codej731/Stock-Grade-YFinance-Screener.git)
-    cd Stock-Grade-YFinance-Screener
-    ```
+### 1. Prerequisites
+You will need Python installed along with the following libraries:
 
-2.  **Install Dependencies:**
-    ```bash
-    pip install pandas yfinance numpy requests yahooquery openpyxl scipy finvizfinance
-    ```
-    *Note: `yahooquery` is essential for the fast, asynchronous data fetching used in the screeners.*
-
-3.  **Run a Screener:**
-    Open any notebook (e.g., `Equity_Research_USA_Analyst_Rating.ipynb`) in Jupyter or VS Code.
-    * **Step 1:** The script fetches the ticker universe (thousands of stocks).
-    * **Step 2:** It filters for liquidity (> $300M Cap, High Volume) and Sector.
-    * **Step 3:** It performs the Deep Dive analysis (Math calculations).
-    * **Step 4:** It saves the results to an Excel file in your specified directory (default is OneDrive, check the `save_to_excel` function to update the path).
-
-## 📊 Example Output
-
-The tools export Excel files with tabbed sheets for easy sorting:
-
-* **Sheet 1: Fortress** (Sorted by Z-Score Safety)
-* **Sheet 2: Moonshot** (Sorted by Growth Potential)
-* **Sheet 3: Distress** (Sorted by Bankruptcy Risk)
-
-## ⚠️ Disclaimer
-
-This software is for **educational and research purposes only**. The analysis is based on historical data from third-party sources (Yahoo Finance) which may be delayed or erroneous. **Do not make investment decisions based solely on this code.**
+```bash
+pip install pandas numpy requests yahooquery yfinance finvizfinance lxml
