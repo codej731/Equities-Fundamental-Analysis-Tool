@@ -9,7 +9,7 @@ A comprehensive Python-based equity research engine designed to filter, analyze,
 
 ## 📋 Overview
 
-This project goes beyond simple stock screening. It pulls raw market data, filters out uninvestable sectors (or targets them specifically), and applies a custom **Credit Strength Model** to categorize stocks into actionable "buckets."
+This project pulls raw market data, filters out uninvestable sectors (or targets them specifically), and applies a custom **Credit Strength Model** to categorize stocks into actionable "buckets."
 
 **Key Capabilities:**
 * **Dual-Market Support:** Automatically handles currency and reporting differences between US and Canadian exchanges.
@@ -81,7 +81,3 @@ The tools export Excel files with tabbed sheets for easy sorting:
 ## ⚠️ Disclaimer
 
 This software is for **educational and research purposes only**. The analysis is based on historical data from third-party sources (Yahoo Finance) which may be delayed or erroneous. **Do not make investment decisions based solely on this code.**
-
-## 📄 License
-
-[MIT](https://choosealicense.com/licenses/mit/)
