@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Finance](https://img.shields.io/badge/Finance-Quantitative-green)
 ![Market](https://img.shields.io/badge/Markets-US%20%26%20Canada-red)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 A comprehensive Python-based equity research engine designed to filter, analyze, and grade stocks across the **US (NASDAQ/NYSE)** and **Canadian (TSX/TSX-V)** markets. This tool automates fundamental analysis by applying credit risk models, valuation screens (Buffett/Graham), and institutional sentiment filters to identify high-quality investment candidates.
 
