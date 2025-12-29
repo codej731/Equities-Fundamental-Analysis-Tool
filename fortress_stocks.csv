@@ -1,0 +1,147 @@
+Ticker,Tier,Price,Sector,Z-Score,ROIC %,Op Margin %,Curr Ratio,Int Cov,Mkt Cap (B)
+CRDO,Fortress,144.31,Technology,123.87,5.42,29.4,8.858,100.0,26.07
+ARM,Fortress,110.54,Technology,35.46,10.38,14.36,5.594,100.0,117.28
+APP,Fortress,695.63,Communication Services,31.81,39.37,76.8,3.25,5.95,235.3
+MNST,Fortress,77.93,Consumer Defensive,29.48,29.15,30.74,3.185,100.0,76.14
+CPRT,Fortress,39.515,Industrials,28.72,18.04,37.29,7.939,,38.25
+ANET,Fortress,134.435,Technology,27.81,26.03,42.38,3.254,,169.29
+ASM,Fortress,6.645,Basic Materials,27.34,11.12,32.56,2.754,38.26,1.04
+ADMA,Fortress,19.05,Healthcare,21.16,32.24,38.01,7.128,10.02,4.55
+GOOG,Fortress,314.14,Communication Services,20.79,33.25,30.51,1.747,448.07,3792.25
+CPRX,Fortress,24.08,Healthcare,16.86,26.7,44.66,6.622,100.0,2.96
+GRMN,Fortress,205.49,Technology,15.87,19.62,25.8,3.316,100.0,39.56
+LRCX,Fortress,175.905,Technology,15.75,41.53,34.35,2.207,34.43,221.82
+CELH,Fortress,46.54,Consumer Defensive,15.04,11.11,25.1,1.887,,12.0
+FORM,Fortress,57.29,Technology,14.96,7.87,8.88,4.298,190.98,4.44
+CDNS,Fortress,317.9,Technology,14.43,19.35,35.09,3.048,19.37,86.62
+GNTX,Fortress,23.44,Consumer Cyclical,13.16,18.68,18.75,2.962,100.0,5.14
+META,Fortress,659.065,Communication Services,12.93,29.44,40.08,1.978,99.83,1661.19
+CTAS,Fortress,190.95,Industrials,12.72,28.91,23.42,1.705,23.39,76.94
+AVGO,Fortress,350.025,Technology,12.13,17.0,31.77,1.705,8.08,1659.56
+AMAT,Fortress,262.28,Technology,12.1,33.71,28.44,2.61,35.46,208.94
+GMAB,Fortress,32.72,Healthcare,12.03,22.92,44.91,6.034,77.37,20.28
+APH,Fortress,137.35,Technology,10.69,18.6,27.48,2.07,14.88,168.12
+LLY,Fortress,1084.685,Healthcare,10.5,26.74,48.29,1.546,17.24,972.37
+CVNA,Fortress,431.2537,Consumer Cyclical,10.21,14.71,9.79,4.047,1.61,93.5
+ASML,Fortress,1066.7552,Technology,10.14,32.26,32.84,1.308,56.61,414.06
+CAVA,Fortress,59.72,Consumer Cyclical,9.64,5.88,6.26,2.686,,6.93
+CGNX,Fortress,36.23,Technology,8.93,6.31,20.86,3.964,100.0,6.07
+CHRW,Fortress,163.61,Industrials,8.68,22.51,5.58,1.585,7.44,19.33
+LULU,Fortress,212.195,Consumer Cyclical,8.18,43.47,16.99,2.13,100.0,25.16
+BWXT,Fortress,175.91,Industrials,8.09,16.2,10.91,1.708,9.83,16.08
+MMYT,Fortress,82.515,Consumer Cyclical,7.98,10.61,15.02,1.915,7.84,7.85
+AOS,Fortress,68.07,Industrials,7.86,30.21,18.63,1.544,105.63,9.54
+CMG,Fortress,37.135,Consumer Cyclical,7.64,24.7,16.13,1.542,100.0,49.79
+CART,Fortress,45.42,Consumer Cyclical,7.56,14.74,17.89,3.643,100.0,11.97
+CLS,Fortress,304.81,Technology,7.26,19.69,10.32,1.468,11.21,35.06
+CTSH,Fortress,85.06,Technology,7.23,18.27,15.99,2.358,55.41,41.54
+CIEN,Fortress,238.12,Technology,7.1,5.44,8.76,2.725,2.7,33.59
+MOD,Fortress,136.62,Consumer Cyclical,7.02,20.37,10.91,2.0,10.62,7.19
+GFI,Fortress,43.3196,Basic Materials,6.63,24.17,46.44,1.886,40.44,38.99
+ADI,Fortress,275.67,Technology,6.55,6.77,30.5,2.19,9.54,134.98
+ARWR,Fortress,69.12,Healthcare,6.45,11.84,17.2,4.863,1.58,9.56
+AU,Fortress,84.655,Basic Materials,6.44,15.64,42.49,2.581,11.39,42.74
+AEM,Fortress,171.67,Basic Materials,6.39,10.21,53.1,2.12,33.63,86.19
+ALKS,Fortress,28.135,Healthcare,6.12,29.32,22.6,3.672,20.65,4.65
+AGI,Fortress,38.73,Basic Materials,6.03,10.53,80.68,1.717,35.88,16.26
+BRBR,Fortress,27.35,Consumer Defensive,6.02,54.3,15.77,2.353,5.23,3.27
+FSLR,Fortress,268.46,Technology,5.81,14.38,29.23,1.91,37.18,28.81
+ANF,Fortress,129.67,Consumer Cyclical,5.71,35.93,12.0,1.384,64.65,6.1
+ABT,Fortress,124.825,Healthcare,5.66,11.26,19.39,1.703,13.55,217.25
+BSX,Fortress,95.88,Healthcare,5.66,7.84,20.73,1.508,8.48,142.14
+LNTH,Fortress,66.88,Healthcare,5.56,25.9,11.36,2.667,22.91,4.55
+FERG,Fortress,226.75,Industrials,5.33,22.33,9.5,1.878,13.75,45.53
+GIL,Fortress,62.815,Consumer Cyclical,5.26,20.83,23.23,2.008,7.02,11.63
+ACN,Fortress,271.445,Technology,5.25,23.31,16.97,1.411,45.94,168.33
+A,Fortress,137.92,Healthcare,5.23,14.9,26.38,1.957,13.81,39.1
+FFIV,Fortress,259.825,Technology,5.19,16.81,27.13,1.562,100.0,15.09
+ACAD,Fortress,27.47,Healthcare,5.12,10.63,12.83,3.019,100.0,4.65
+HALO,Fortress,69.125,Healthcare,5.08,29.89,61.51,1.587,31.79,8.13
+ABNB,Fortress,136.78,Consumer Cyclical,5.06,23.64,39.68,1.392,,83.74
+LRN,Fortress,66.47,Consumer Defensive,4.98,19.77,5.38,6.775,37.48,2.92
+CDE,Fortress,18.41,Basic Materials,4.83,8.89,33.28,1.999,3.58,11.82
+CAT,Fortress,578.8525,Industrials,4.77,25.02,17.75,1.384,27.12,271.18
+ATI,Fortress,116.7596,Industrials,4.58,15.17,15.11,2.502,4.91,16.09
+ALGN,Fortress,157.965,Healthcare,4.56,16.08,15.67,1.289,100.0,11.45
+AS,Fortress,37.8899,Consumer Cyclical,4.52,5.6,12.87,1.511,1.74,21.01
+CGAU,Fortress,14.355,Basic Materials,4.52,8.84,34.06,2.888,160.69,2.9
+KO,Fortress,70.2,Consumer Defensive,4.46,19.58,32.37,1.211,8.9,302.12
+MGY,Fortress,21.905,Energy,4.42,20.06,31.23,1.472,35.32,4.18
+GLW,Fortress,88.965,Technology,4.29,5.01,14.56,1.556,3.47,76.28
+BVN,Fortress,28.0879,Basic Materials,4.21,13.5,35.35,2.267,14.32,7.13
+AEO,Fortress,26.73,Consumer Cyclical,4.14,15.09,8.26,1.634,,4.53
+BAH,Fortress,85.325,Industrials,4.1,25.78,9.79,1.756,7.42,10.52
+LEN,Fortress,103.74,Consumer Cyclical,4.07,12.29,7.88,12.398,100.0,25.62
+MAS,Fortress,64.25,Industrials,4.07,36.46,15.81,1.878,12.73,13.45
+AMKR,Fortress,40.155,Technology,4.05,9.04,8.0,1.773,7.64,9.93
+FLS,Fortress,70.615,Industrials,4.05,11.29,13.6,2.103,6.57,9.24
+GNRC,Fortress,138.64,Industrials,4.04,12.25,9.25,2.183,5.56,8.14
+G,Fortress,47.97,Technology,4.0,18.8,15.86,1.514,9.51,8.36
+FSM,Fortress,9.9755,Basic Materials,3.99,12.97,64.23,3.298,8.31,3.07
+MMM,Fortress,161.83,Industrials,3.98,21.01,24.37,1.842,5.05,86.2
+GD,Fortress,340.64,Industrials,3.96,12.96,10.46,1.4,12.55,92.01
+COO,Fortress,82.08,Healthcare,3.82,5.91,13.54,1.893,6.66,16.32
+B,Fortress,44.14,Basic Materials,3.74,11.18,49.01,2.944,11.89,75.47
+CRH,Fortress,127.26,Basic Materials,3.65,13.21,18.0,1.453,8.7,85.15
+FOXA,Fortress,74.37,Communication Services,3.58,17.07,26.32,3.238,8.6,33.02
+CNM,Fortress,53.73,Industrials,3.57,14.37,10.67,2.265,5.06,10.61
+CROX,Fortress,85.57,Consumer Cyclical,3.56,25.05,20.84,1.404,9.33,4.67
+ACMR,Fortress,39.815,Technology,3.5,14.03,10.75,3.479,41.06,2.58
+FOX,Fortress,65.685,Communication Services,3.46,17.07,26.32,3.238,8.6,30.93
+HAL,Fortress,28.18,Energy,3.41,18.86,12.86,1.955,8.19,24.03
+BHP,Fortress,60.425,Basic Materials,3.36,21.71,37.7,1.46,10.79,155.22
+ALC,Fortress,80.4,Healthcare,3.35,5.16,12.85,2.118,7.54,39.64
+BLDR,Fortress,102.83,Industrials,3.29,18.12,5.8,1.786,7.68,11.37
+BIRK,Fortress,41.32,Consumer Cyclical,3.26,12.15,22.04,2.811,7.22,7.6
+BURL,Fortress,284.905,Consumer Cyclical,3.23,11.46,5.75,1.208,10.71,17.93
+MAT,Fortress,19.965,Consumer Cyclical,3.2,14.18,22.18,1.598,6.24,6.43
+APG,Fortress,39.17,Industrials,3.08,7.6,8.97,1.48,3.26,16.29
+GLOB,Fortress,67.57,Technology,3.08,9.11,9.76,1.934,8.34,2.98
+BIIB,Fortress,177.405,Healthcare,3.02,9.57,30.72,2.716,8.61,26.03
+HAS,Fortress,82.729,Consumer Cyclical,3.01,13.53,24.58,1.705,3.9,11.61
+ATAT,Fortress,40.07,Consumer Cyclical,2.99,34.11,24.79,2.157,553.74,5.54
+ASO,Fortress,50.655,Consumer Cyclical,2.98,14.6,7.26,1.706,15.6,3.38
+HAFN,Fortress,5.355,Industrials,2.98,27.25,16.77,1.476,15.86,2.68
+FLEX,Fortress,62.52,Technology,2.97,14.55,5.1,1.334,5.69,23.38
+FND,Fortress,61.72,Consumer Cyclical,2.94,6.73,6.11,1.27,92.38,6.65
+MDT,Fortress,96.18,Healthcare,2.92,8.07,20.3,2.415,8.72,123.36
+MHK,Fortress,109.04,Consumer Cyclical,2.87,6.87,6.66,2.246,14.32,6.77
+GAP,Fortress,25.98,Consumer Cyclical,2.84,14.18,8.22,1.72,14.07,9.66
+COP,Fortress,92.3488,Energy,2.81,13.36,19.54,1.323,13.34,115.34
+LEVI,Fortress,21.01,Consumer Cyclical,2.79,5.97,11.68,1.519,6.24,8.31
+BWA,Fortress,45.79,Consumer Cyclical,2.76,6.02,8.41,2.051,7.42,9.91
+CF,Fortress,77.63,Basic Materials,2.76,15.03,33.94,2.273,13.68,12.57
+CDW,Fortress,138.6203,Technology,2.72,17.93,7.95,1.39,7.69,18.17
+AMRZ,Fortress,55.2,Basic Materials,2.69,10.06,21.33,1.45,7.03,30.53
+CEG,Fortress,361.39,Utilities,2.67,10.9,16.33,1.563,9.92,112.9
+LKQ,Fortress,30.57,Consumer Cyclical,2.64,10.09,8.23,1.596,4.66,7.87
+FDX,Fortress,291.8201,Industrials,2.63,8.63,7.64,1.274,7.9,68.86
+ARMN,Fortress,16.15,Basic Materials,2.59,5.73,40.92,2.415,3.9,3.29
+BRKR,Fortress,48.155,Healthcare,2.56,5.63,12.96,1.854,5.32,7.32
+BZ,Fortress,20.775,Communication Services,2.53,7.76,31.76,4.184,,9.7
+BBWI,Fortress,20.415,Consumer Cyclical,2.5,36.8,10.1,1.211,4.29,4.21
+CENX,Fortress,38.84,Basic Materials,2.48,24.86,9.22,1.714,8.51,3.63
+MBC,Fortress,11.11,Consumer Cyclical,2.45,9.56,8.5,1.865,3.27,1.41
+APTV,Fortress,76.61,Consumer Cyclical,2.44,13.58,11.44,1.793,7.38,16.68
+AKAM,Fortress,88.02,Technology,2.42,7.42,15.74,2.281,22.65,12.66
+LW,Fortress,42.045,Consumer Defensive,2.42,11.24,9.47,1.433,3.7,5.86
+HAYW,Fortress,15.765,Industrials,2.4,7.92,16.92,3.184,3.12,3.42
+AXTA,Fortress,32.845,Basic Materials,2.39,11.89,15.76,2.199,3.42,7.01
+CVE,Fortress,16.915,Energy,2.34,9.6,11.0,1.729,7.27,31.91
+GTES,Fortress,21.825,Industrials,2.29,7.6,14.94,3.523,3.47,5.64
+CSTM,Fortress,18.84,Basic Materials,2.27,7.24,7.02,1.277,2.31,2.63
+LYB,Fortress,43.345,Basic Materials,2.23,7.18,6.04,1.57,4.33,13.95
+BKR,Fortress,45.52,Energy,2.21,13.65,13.52,1.409,17.49,44.92
+AM,Fortress,17.83,Energy,2.07,13.35,57.81,1.259,3.65,8.53
+BOX,Fortress,30.52,Technology,1.94,12.24,8.32,1.2,15.02,4.37
+DAR,Fortress,35.715,Consumer Defensive,1.94,5.55,7.87,1.488,1.97,5.65
+AVTR,Fortress,11.35,Healthcare,1.87,10.61,8.48,1.488,4.9,7.74
+GPRK,Fortress,7.275,Energy,1.75,33.49,25.9,2.63,7.68,0.38
+GPK,Fortress,15.185,Consumer Cyclical,1.72,12.08,11.69,1.545,4.85,4.5
+FRO,Fortress,22.115,Energy,1.68,14.32,20.8,1.369,2.66,4.92
+CXW,Fortress,19.285,Industrials,1.66,6.02,9.34,1.41,2.36,2.06
+AMGN,Fortress,330.59,Healthcare,1.54,11.29,34.15,1.28,2.46,178.02
+GM,Fortress,82.9,Consumer Cyclical,1.32,5.1,5.67,1.229,11.07,78.93
+ACHC,Fortress,14.48,Healthcare,1.16,8.52,14.04,1.444,3.94,1.34
+AROC,Fortress,26.01,Energy,0.83,9.79,38.65,1.557,2.88,4.56
+MNKD,Fortress,5.76,Healthcare,-7.27,21.95,22.86,3.288,1.8,1.77
