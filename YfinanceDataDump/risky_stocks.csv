@@ -1,25 +1,25 @@
 Ticker,Tier,Price,P/E,Sector,Z-Score,ROIC %,Op Margin %,Curr Ratio,Int Cov,Mkt Cap (B)
-TFPM.TO,Risky,45.38,32.88,Basic Materials,164.26,-0.41,58.42,1.676,-1.27,9.37
-OR.TO,Risky,48.74,45.55,Basic Materials,29.02,2.8,65.18,4.373,4.78,9.17
+TFPM.TO,Risky,45.38,34.38,Basic Materials,164.26,-0.41,58.42,1.676,-1.27,9.37
+OR.TO,Risky,48.74,47.78,Basic Materials,29.02,2.8,65.18,4.373,4.78,9.17
 AYA.TO,Risky,19.19,0.0,Basic Materials,10.32,-7.1,27.81,1.958,-162.16,2.72
-LMN.V,Risky,27.5,40.44,Technology,7.14,-20.5,20.48,2.044,-11.05,7.06
+LMN.V,Risky,27.5,39.86,Technology,7.14,-20.5,20.48,2.044,-11.05,7.06
 PDN.TO,Risky,8.79,0.0,Energy,5.18,-4.79,16.74,4.022,-1.85,4.15
 ITR.V,Risky,5.6,26.67,Basic Materials,5.17,-3.52,29.5,1.575,-3.0,1.02
 SAP.TO,Risky,41.08,0.0,Consumer Defensive,3.38,0.94,6.23,1.617,0.84,16.85
-SSRM.TO,Risky,29.96,21.25,Basic Materials,3.15,-6.15,24.81,2.407,-23.47,6.08
+SSRM.TO,Risky,29.96,22.19,Basic Materials,3.15,-6.15,24.81,2.407,-23.47,6.08
 NEO.TO,Risky,15.61,0.0,Basic Materials,2.59,1.78,6.84,2.236,4.76,0.65
 TNZ.TO,Risky,25.2,4.1,Energy,2.15,-4.73,3.16,1.44,-37.04,0.81
-MRE.TO,Risky,10.3,0.0,Consumer Cyclical,1.91,4.76,5.47,1.206,1.69,0.75
 EFN.TO,Risky,36.72,25.15,Industrials,1.91,4.53,49.36,4.155,339.53,14.69
+MRE.TO,Risky,10.3,0.0,Consumer Cyclical,1.91,4.76,5.47,1.206,1.69,0.75
 TECK-B.TO,Risky,65.33,26.56,Basic Materials,1.87,0.13,13.68,2.783,0.07,31.9
-NTR.TO,Risky,85.9,16.91,Basic Materials,1.87,4.71,13.48,1.409,2.54,41.74
+NTR.TO,Risky,85.9,17.08,Basic Materials,1.87,4.71,13.48,1.409,2.54,41.74
 ATS.TO,Risky,38.23,0.0,Industrials,1.73,0.44,10.34,1.63,0.16,3.71
 CAS.TO,Risky,12.34,61.7,Consumer Cyclical,1.55,2.81,6.78,1.526,0.8,1.25
 ORV.TO,Risky,2.13,0.0,Basic Materials,1.36,-4.8,9.68,1.252,-3.1,0.29
 MATR.TO,Risky,8.07,17.54,Energy,1.31,3.22,5.53,1.872,1.55,0.5
 AFN.TO,Risky,23.52,0.0,Industrials,1.1,5.26,8.67,1.639,0.92,0.44
-CU.TO,Risky,42.44,21.65,Utilities,0.97,5.0,28.41,1.557,2.23,11.54
+CU.TO,Risky,42.44,21.54,Utilities,0.97,5.0,28.41,1.557,2.23,11.54
 CURA.TO,Risky,3.52,0.0,Healthcare,0.64,-0.66,1.26,1.472,-0.17,2.7
 AQN.TO,Risky,8.58,85.8,Utilities,0.35,3.66,25.07,1.227,1.46,6.59
-BHC.TO,Risky,9.8,7.37,Healthcare,0.07,7.87,26.74,1.304,1.12,3.63
+BHC.TO,Risky,9.8,7.42,Healthcare,0.07,7.87,26.74,1.304,1.12,3.63
 OGI.TO,Risky,2.32,0.0,Healthcare,0.07,-3.51,1.49,2.258,,0.31
